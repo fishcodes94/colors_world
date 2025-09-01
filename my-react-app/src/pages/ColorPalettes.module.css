@@ -1,0 +1,107 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.mainPaletteHeader {
+    width: 100vw;
+    text-align: center;
+
+
+}
+
+.headerContainer{
+
+    top: 0px;
+    z-index: 1000;
+      position: fixed;
+  
+}
+
+.mainContainer {
+
+    height:auto;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+   
+    
+    
+
+  
+
+
+}
+
+.paletteName{
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.testingContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 120px
+}
+
+.colorsContainer {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden
+}
+
+
+.colorInfo {
+    opacity: 0;
+
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+    font-size: 12px;
+
+
+
+
+
+
+
+
+    color: white;
+    /* or whatever contrasts the palette */
+}
+
+.colorBox:hover .colorInfo {
+    opacity: 1;
+}
+
+.colorName,
+.colorHex {
+    background-color: hsla(0, 0%, 20%, 0.5);
+    opacity: .9;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.colorBox {
+    width: 250px;
+    height: 76px;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+
+
+
+
+}
+

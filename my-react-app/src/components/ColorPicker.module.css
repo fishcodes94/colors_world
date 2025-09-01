@@ -1,0 +1,31 @@
+.ColorPicker{
+    width: 500px;
+    height: 500px
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.headerContainer{
+
+    top: 0px;
+    z-index: 1000;
+      position: fixed;
+}
+
+.colorPickerContainer{
+ 
+    transform: scale(2.5);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.pickerP{
+    width: 600px;
+}
