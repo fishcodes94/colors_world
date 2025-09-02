@@ -29,7 +29,7 @@ app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
 
-const allowedOrigins= ["http://localhost:5173"]
+const allowedOrigins= ["http://localhost:5173", "https://colors-world.onrender.com"]
 
 app.use(
   cors({
