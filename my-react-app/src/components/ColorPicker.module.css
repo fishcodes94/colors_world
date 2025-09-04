@@ -29,3 +29,42 @@
 .pickerP{
     width: 600px;
 }
+
+
+/* Extra Large Screens (Desktops > 1400px) */
+@media (min-width: 1400px) {
+  /* ultra-wide desktop styles */
+}
+
+/* Large Desktops (1200px – 1399px) */
+@media (max-width: 1399px) {
+  /* large desktop styles */
+}
+
+/* Medium Desktops and Laptops (992px – 1199px) */
+@media (max-width: 1199px) {
+  /* medium laptop styles */
+}
+
+/* Tablets and Small Laptops (768px – 991px) */
+@media (max-width: 991px) {
+  /* tablet styles */
+ 
+}
+
+/* Small Phones (<576px) */
+@media (max-width: 646px) {
+  /* small mobile styles */
+  .colorPickerContainer{
+ 
+    transform: scale(1.8);
+}
+}
+
+@media (max-width: 590px) {
+      .colorPickerContainer{
+ 
+    transform: scale(1.3);
+      }
+
+}

@@ -8,10 +8,11 @@ export const HeaderColor = () => {
   return (
     <div className={styles.headerContainer}>
       
-
     <div className={styles.logoContainer}>
       <img src={paintbrush}></img>
+      <Link className={styles.linky}  to="/">
     <h1 className={styles.companyName}>Palette World</h1>
+    </Link>
     </div>
 
     <div className={styles.navigationBarContainer}>

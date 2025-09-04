@@ -34,9 +34,9 @@ export const ColorPicker = () => {
             <div className={styles.headerContainer}>
                 <HeaderColor />
             </div>
-            <button onClick={() => setShowPicker(!showPicker)}>
+            {/* <button onClick={() => setShowPicker(!showPicker)}>
                 Pick Color
-            </button>
+            </button> */}
 
             {showPicker && (
                 <div className={styles.colorPickerContainer} >
